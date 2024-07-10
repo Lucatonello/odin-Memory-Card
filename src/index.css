@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Cinzel', serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,6 +20,7 @@ html, body {
 }
 #root {
   height: 100%;
+  background: rgb(140, 24, 39); 
 }
 
 body {
@@ -27,9 +29,6 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-}
-header > p {
-  margin-top: 0px;
 }
 aside {
   position: absolute;
@@ -42,23 +41,37 @@ aside {
 }
 aside > p {
   margin: 0;
+  color: rgb(255, 211, 132);
 }
+p {
+  color: rgb(255, 211, 132); 
+}
+hr {
+  background-color: rgb(255, 211, 132);; /* Replace with your desired color code */
+  height: 1px; 
+  border: none; 
+}
+
 .card-wrapper {
   grid-template-columns: repeat(auto-fit, minmax(200px, 300px));;
   grid-gap: 10px;
   max-height: 100%;
+  background: rgb(140, 24, 39); 
+
 }
 .card {
+  border: 0px;
   border-radius: 13px;
   padding: 0px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #2135474d
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
   margin-bottom: 23px;
+  color: rgb(255, 211, 132)
 }
 
 button {
